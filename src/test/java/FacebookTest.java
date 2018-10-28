@@ -17,7 +17,7 @@ public class FacebookTest extends BaseTest
     public void verifyFacebookStatusUpdate()
     {
         FacebookPage facebookPage=new FacebookPage(driver);
-        //To login into facebook
+        //To login into facebook with your user name and password
         //Please change credentials in FacebookLoginDetails.properties file for execution
         facebookPage.facebookLogin("FacebookLoginDetails.properties");
         //to post a status on facebook
